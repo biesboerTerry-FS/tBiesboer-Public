@@ -1,0 +1,19 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: "Nabla", "Josefin sans", Helvetica, Arial, sans-serif; 
+}
+
+
+header {
+    font-family: "Nabla", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section-wrapper {
+    display: grid ;
+    gap: 1.5rem ;    
+
+
+
+}   

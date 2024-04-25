@@ -1,0 +1,41 @@
+ body{
+    margin: 0 auto ;
+    font: "Montserra", "Nabla", "Jo";
+}
+
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;1,500&display=swap);
+    font-family:"Josefin Sans" ;
+}
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Nabla&display=swap);
+    font-family:"Nabla" ;
+}
+
+@font-face {
+    src: url(  https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap);
+    font-family:"Montserra" ;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;1,500&family=Montserrat:wght@200;300;600&family=Nabla&display=swap);
+
+/* @font-face {
+    font-family:"Josefin Sans"; 
+    src: url("../css/) */
+
+    h1 {
+        font-family: Nabla ;
+        text-size-adjust: 1.25rem;
+    }
+
+@font-face {
+    src: url();
+    font-family:"Montserra" ;
+}
+
+@font-face {
+    src: url();
+    font-family:"Montserra" ;
+}

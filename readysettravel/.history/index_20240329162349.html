@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<!-- 
+    Terry Biesboer
+    Project and Portfolio 1 - WDV119
+    March 10, 2024
+-->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap" rel="stylesheet">
+    <title>Ready Set Travel</title>
+
+</head>
+
+
+<body>  
+
+    <header class="header">
+
+        <div class="headerNavBarLogo">  
+                <img src="img/ReadySetTravel.png" alt="readySetTravel logo">
+        </div>
+
+        <div class="headerNavBarLinks">
+            <nav role="navigation">
+                <a href="about.html">About</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="tours.html">Tours</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </div>
+
+        <div class="headerNavBarButton">
+                <form action="tours.html">
+                <button class="button">Book a Trip</button>
+                </form>
+        </div>   
+
+    </header>
+ 
+    
+    
+<main role="main">
+
+
+        <!-- Hero Image -->
+
+    <figure class="heroImage">
+        <img src="img/hero-bg.jpg" alt="Panoramic view of mountaintops at sunset with hiker at foreground">
+        <figcaption>
+            <h2>Book the trip of a lifetime</h2>
+            <h3>Get the best advice and tips for your dream trip</h3>
+        </figcaption>
+    </figure>
+    
+
+
+
+        <!-- Choose Destination -->
+
+    <section class="chooseDestination">
+       
+            <h4>Where do you want to go?</h4>
+             
+            <form action="tours.html" class="searchBar">
+                <input class="chooseDestinationInputField" type="text" placeholder="Enter a destination" name="search">
+                <button id="chooseDestinationButton" class="button" type="submit">Search</button>
+            </form>
+
+    </section>
+
+    
+    
+
+        <!-- Trending Tours -->
+    
+    <div class="trendingTours">
+        
+        <section class="tourGalleryHeader">    
+            <h3>Trending Tours</h3>
+            <h6>Get out there and experience some adventure!</h6>
+        </section>    
+
+        <div class="tourCards">
+            <div class="alpsTourCard">
+                <img src="img/tour-mountainHiking.jpg" alt="Image of a hiker walking on a mountaintop">
+                    
+                    <p class="tourCardDestination"> Mountain Hiking Tour</p>
+                    <p class="tourCardDuration">4 days | 10 stops</p>
+                    <p class="tourCardCost">$1,500<button type="submit" class="button">Book Now</button></p>
+            </div>
+        
+            <div class="reefTourCard">
+                <img src="img/tour-snorkel.jpg" alt="Photo of diver snorkeling in a reef">
+                  
+                    <p class="tourCardDestination">Snorkel the Barrier Reed Tour</p>
+                    <p class="tourCardDuration">2 days | 2 stops</p>
+                    <p class="tourCardCost">$1,000<button type="submit" class="button">Book Now</button></p>
+            </div>
+        
+            <div class="pyramidTourCard">
+                <img src="img/tour-pyramids.jpg" alt="Photo of camelback riders with pyramids in background at sunset">
+                
+                    <p class="tourCardDestination">Tour the Pyramids on Camelback</p>
+                    <p  class="tourCardDuration">2 days | 2 stops</p>
+                    <p class="tourCardCost">$2,000<button type="submit" class="button">Book Now</button></p>
+                
+            </div>
+        </div>
+    </div>    
+
+
+        <!-- Plan The Perfect Trip  -->
+        
+    <div class="planningThePerfectTrip">
+
+        <div class="planningHeader">
+            <h2><span id="headerFontColor">Plan the</span> Perfect Trip</h2>
+            <h6>We take care of it all so you can get out there and experience some adventure!</h6>
+        </div>
+
+        <div class="planningImages">   
+
+                <figure class="flightsImage"><img src="img/icon-flights.png" alt="drawing of plane circumnavigating the Earth">
+                    <figcaption>    
+                        <h6>Flights</h6>
+                    </figcaption>
+                </figure>
+
+                <figure class="transportationImage"><img src="img/icon-transport.png" alt="drawing of a double decker bus">
+                    <figcaption>    
+                        <h6>Transportation</h6>
+                    </figcaption>
+                </figure>
+
+                <figure class="guidesImage"><img src="img/icon-guide.png" alt="drawing of a tour guide and red flag">
+                    <figcaption>    
+                        <h6>Guides</h6>
+                    </figcaption>
+                </figure>
+                
+        </div>    
+    </div>            
+
+
+
+    
+<!--  Top Notch Destinations    -->
+    <div class="destinationHeaders">
+        
+            <h3>Top Notch Destinations</h3>
+            <h5>These places are on everyone's bucket list</h5>
+        
+    </div>
+
+
+    <div class="destinationExamples">
+
+                <figure class="machuPichu"><img src="img/destinations-machu.jpg" alt="aerial photo of Machu Pichu">
+                    <figcaption class="destinationImageCaption">
+                        <h3 class="destinationCity">Machu Pichu</h3>
+                        <h4 class="destinationCountry">Peru</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="parisFrance"><img src="img/destinations-paris.jpg" alt="aerial photo of Paris, France">
+                    <figcaption class="destinationImageCaption">
+                        <h3 class="destinationCity">Paris</h3>
+                        <h4 class="destinationCountry">France</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="romeItaly"><img src="img/destinations-rome.jpg" alt="rooftop view of Rome">
+                    <figcaption class="destinationImageCaption">
+                        <h3 class="destinationCity">Rome</h3>
+                        <h4 class="destinationCountry">Italy</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="sydneyAustralia"><img src="img/destinations-sydney.jpg" alt="view of the sydney opera house from the ocean">
+                    <figcaption class="destinationImageCaption">
+                        <h3 class="destinationCity">Sydney</h3>
+                        <h4 class="destinationCountry">Australia</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="rioDeJaneiro"><img src="img/destinations-rio.jpg" alt="aerial photo of Rio de Janeiro">
+                    <figcaption class="destinationImageCaption">
+                        <h3 class="destinationCity">Rio de Janeiro</h3>
+                        <h4 class="destinationCountry">Brazil</h4>
+                    </figcaption>
+                </figure>
+        
+    </div>
+
+    </main>  
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footerColumns">
+
+            <div class="socialColumn">
+                <a href="index.html">
+                    <img id="invertLogoColor" src="img/ReadySetTravel.png" alt="ReadySetTravel lettered logo">
+                </a>
+                <h5>We can provide you with the best <br> advice and tips for your dream trip.</h5>
+
+
+                <div class="socialIcons">
+                    <a href="https://www.facebook.com" class="socialIconLogos">
+                        <img class="facebookIcon" src="img/social-facebook.png" alt="Facebook icon">
+                    </a>
+                    <a href="https://www.instagram.com" class="socialIconLogos">
+                        <img class="instagramIcon" src="img/social-instagram.png" alt="Instagram icon">
+                    </a>   
+                    <a href="https://www.twitter.com" class="socialIconLogos">
+                        <img class="twitterIcon" src="img/social-twitter.png" alt="Twitter icon">
+                    </a>
+                </div>        
+            </div>
+
+
+            <div class="contactColumn">
+                <h4 class="footerHeader">Contact Us</h4>
+                    <address>
+                        <p>
+                        1234 Address Street 
+                        <br>
+                        Winter Park, FL 32792
+                        <br>
+                        <br>
+                        <a href="tel:123-456-7890">123-456-7890</a>
+                        </p>
+                    </address>
+            </div>
+
+
+            <div class="linksColumn">
+                <h4 class="footerHeader">Links</h4>
+                <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tours.html">Discover</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>   
+        </div>
+    </footer>
+
+        
+</body>
+</html>     

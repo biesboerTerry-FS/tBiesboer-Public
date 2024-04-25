@@ -1,0 +1,91 @@
+body{
+    margin: 0 auto;
+    
+}
+
+section-wrapper {
+    display: grid11;
+    width: auto;
+}
+form#contactMe input, form#contactMe textarea{
+		display: block;
+	width: 50%;
+	padding: 10px;
+  margin:10px auto;
+	background: white;
+	color: rgb(254,153,219);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.75);
+	border-radius: 0;
+	font-family:helvetica;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.5s;
+  border-radius: 25px 25px 25px 25px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-align:right;
+}
+#contactMe input#fname{
+  float:left;
+  width:50%;
+  margin:10px auto;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 25px 25px 25px 25px;
+}
+#contactMe input#lname{
+  float:right;
+  width:50%; 
+  margin:10px auto;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 25px 25px 25px 25px;
+}
+form#contactMe input::placeholder, form#contactMe textarea::placeholder{
+  color:rgb(254,153,219); 
+  text-align:right;
+  font-family:Helvetica, Arial, Sans-serif;
+  font-weight:bold;
+  font-size:18px;
+}
+form#contactMe textarea{
+  height:150px;
+}
+form#contactMe input:hover, form#contactMe textarea:hover, padding{
+  border-radius: 25px 25px 25px 25px;
+  background-color:black;
+  border:1px;
+  letter-spacing:3px;
+}
+/*=========styles submit button========*/
+button[type='submit'] {
+	display: block;
+	width: 50%;
+	padding: 10px;
+  margin:10px auto;
+	background: white;
+	color: rgb(254,153,219);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.75);
+	border-radius: 0;
+	font-family:helvetica;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.5s;
+  border-radius: 25px 25px 25px 25px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-align:right;
+}
+button[type='submit']:hover{
+  background:black;
+  letter-spacing:3px;
+  border-radius: 20px 20px 20px 20px;
+}

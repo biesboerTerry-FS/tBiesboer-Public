@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: "Nabla", "Josefin sans", Helvetica, Arial, sans-serif; 
+}
+
+
+header {
+    font-family: "Nabla", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section-wrapper {
+    display: grid ;
+    gap: 1.5rem ;    
+
+
+
+}   
+
+button[type='submit'] {
+	display: block;
+	width: 95%;
+	padding: 10px;
+    margin:0 auto;
+	color: pink ;
+	transition: all 0.5s;-webkit-border-radius: 25px 25px 25px 25px;
+border-radius: 25px 25px 25px 25px;
+}
+button[type='submit']:hover{
+  background:black;letter-spacing:1px;
+  -webkit-border-radius: 20px 20px 20px 20px;border-radius: 20px 20px 20px 20px;
+}

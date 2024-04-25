@@ -1,0 +1,143 @@
+/* Roboto font class */
+
+
+ .roboto-light { 
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Abril Fatface classes */
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Header */
+
+header {
+  display: inline-block;
+  flex-direction: row;
+  background-color: #e7ecf3;
+  width: 100%;
+}
+
+
+
+/* Hero */
+
+.image img{
+  width: 100%;
+  height: 400px;
+  margin: 0, 0;
+}
+
+.image {
+  position: relative;
+  margin: 0 0;
+}
+
+.image figcaption {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  color: white;
+}
+
+.image h2{
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 40px;
+  padding-left: 250px;
+  margin-top: 5px;
+}
+
+.image h3{
+  font-family: "Roboto", sans-serif;
+  font-size: bold, 20px;
+  padding-left: 250px;
+  margin-bottom: 375px;
+  padding-bottom: 250px;
+}
+
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-wrap: column;
+  background-color: #587c93;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  color: #e7ecf3;
+  height: 400px;
+  padding-block: 0;
+}
+
+
+  
+#socialColumn {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  color: #e7ecf3;
+  margin-left: 30px;
+  text-align: left;
+  justify-content: center;
+}
+
+#invertLogoColor {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+#linksColumn {
+  display: flex;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+  color: #e7ecf3;
+  margin-left: 30px;
+}
+
+#contactColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #e7ecf3;
+  margin-left: 30px;
+}
+
+/* Buttons */
+
+.button {
+  display: block;
+  width: 110px;
+  border: none;
+  background-color: #ee8a5a;
+  color: #e7ecf3;
+  padding: 8px 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: medium, 16px;
+  }

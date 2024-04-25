@@ -1,0 +1,326 @@
+/* Roboto font class */
+
+
+ .roboto-light { 
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Abril Fatface classes */
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Header */
+
+header {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px;
+  grid-template-areas: "headerNavBarLogo headerNavBarLinks headerNavBarButton";
+  background-color: #e7ecf3;
+  padding-left: 125px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.headerNavBarLogo > img {
+ margin: 50px 100px;
+ width: 125px;
+ align-content: left;
+}
+
+.headerNavBarLinks > nav > a {
+  margin-right: 40px;
+}
+
+/* header > nav > form { */
+  /* text-decoration: none; */
+  /* color: inherit; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-weight: lighter; */
+  /* margin-left: 75px; */
+  /* padding-bottom: 50px; */
+  /* padding-left: 15px; */
+  /* margin-bottom: 50px; */
+/* } */
+
+.headerNavBarButton {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+
+}
+
+
+
+/* Main */
+
+main {
+  width: 800px;
+  margin: 100px;
+}
+
+
+
+
+/* Hero */
+
+.image img{
+  width: 100%;
+  height: 400px;
+  margin: 0 0;
+}
+
+.image {
+  position: relative;
+  margin: 0 0;
+}
+
+.image figcaption {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  color: white;
+}
+
+.image h2{
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 40px;
+  padding-left: 250px;
+  padding-top: 5px;
+}
+
+.image h3{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding-left: 250px;
+  padding-bottom: 275px;
+}
+
+
+
+/* Search */
+
+#chooseDestination {
+  background-color: #587c93;
+  height:150px;
+  width: auto;
+  
+}
+
+#chooseDestination h4 {
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 33px;
+  margin-top: 0;
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 1px;
+  color: white;
+}
+
+#chooseDestination form {
+  font-family: "Roboto", sans-serif;
+  margin-left: 200px;
+  
+}
+
+
+
+/* Tours */
+
+.tourGalleryHeader {
+  background-color: #e7ecf3;
+}
+
+.tourGalleryHeader > h3 {
+  font-family: "Abril Fatface", sans-serif;
+  text-align: center;
+  font-size: 33px;
+}
+
+.tourGalleryHeader > h6 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.tourGallery {
+  background-color: #e7ecf3;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  grid-template-areas: " alpsTour reefTour pyramidTour";
+}
+
+.tourGallery > h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding-left: 250px;
+  padding-bottom: 275px;
+}
+
+.tourGallery > h6 {
+  font-family: "Roboto", sans-serif;
+font-size: 20px;
+padding-left: 250px;
+padding-bottom: 275px;
+} 
+
+.tourGallery > h3 {
+  font-family: "Roboto", sans-serif;
+font-size: 20px;
+padding-left: 250px;
+padding-bottom: 275px;
+}
+
+.alpsTour {
+  grid-area: alpsTour;
+}
+
+.reefTour {
+  grid-area: reefTour;
+}
+
+.pyramidTour {
+  grid-area: pyramidTour;
+}
+/* Top Notch Destinations */
+
+.destinationExamples {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+  grid-template-rows: 150px 150px;
+  grid-template-areas: "machuPichu romeItaly sydneyAustarlia"
+  "parisFrance romeItaly rioDeJaneiro";
+}
+
+.destinationExamples > figure {
+  display: block;
+} 
+
+.destinationExamples > figure > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.destinationExamples > figure > img > figcaption {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  color: white;
+}
+
+.destinationExamples > figure > img > figcaption > h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.destinationExamples > figure > img > figcaption > h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.machuPichu {
+  grid-area: machuPichu;
+}
+
+.romeItaly {
+  grid-area: romeItaly;
+}
+
+.parisFrance {
+  grid-area: parisFrance;
+}
+
+.sydneyAustarlia {
+  grid-area: sydneyAustarlia;
+}
+
+.rioDeJaneiro {
+  grid-area: rioDeJaneiro;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #587c93;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  color: #e7ecf3;
+  height: 250px;
+}
+
+
+#invertLogoColor {
+  filter: invert(1);
+}
+
+#socialColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #e7ecf3;
+  margin-left: 30px;
+}
+
+#linksColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #e7ecf3;
+  margin-left: 30px;
+}
+
+#contactColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #e7ecf3;
+  margin-left: 30px;
+}
+
+/* Buttons */
+
+.button {
+  display: block;
+  width: 110px;
+  border: none;
+  background-color: #ee8a5a;
+  color: #e7ecf3;
+  padding: 8px 15px;
+  font-family: "Roboto", sans-serif;
+  font-size:16px;
+  }
