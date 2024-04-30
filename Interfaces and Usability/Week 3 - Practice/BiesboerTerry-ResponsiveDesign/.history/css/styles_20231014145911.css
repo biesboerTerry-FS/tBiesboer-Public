@@ -1,0 +1,24 @@
+
+body {
+        background-color: #111213;
+}
+
+.container {
+        max-width: 600px ;
+        
+}
+
+/* for media queries that targets a width of 500px or less (mi-width or max-width)*/
+
+@media (max-width: 500px ) {
+        body {
+                background-color: #5e636e;	
+}   
+}
+
+/* for media queries that targets a width of 500px or less */
+@media (min-width: 800px) {
+	body {
+	background-color: purple;
+}
+}

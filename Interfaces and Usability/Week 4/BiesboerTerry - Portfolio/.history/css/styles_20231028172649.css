@@ -1,0 +1,63 @@
+ body {
+    margin: 0 auto ;
+    font-family: "Montserrat", "Nabla", "Josefin Sans";
+ }
+
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;1,500&display=swap);
+    font-family:"Josefin Sans" ;
+}
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Nabla&display=swap);
+    font-family:"Nabla" ;
+}
+
+@font-face {
+    src: url(  https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap);
+    font-family:"Montserra" ;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;1,500&family=Montserrat:wght@200;300;600&family=Nabla&display=swap);
+
+  form#contactMe input:hover,
+  form#contactMe textarea:hover {
+    background-color:#334155;
+    border: 1px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  button [type="submit"] {
+    display: inline-block ;
+    background #fff ;
+    color: #f9a8d4
+    /* font-family: helvetica;
+    font-weight: 100; */
+    /* cursor: pointer; */
+    transition: all 0.5s;
+  }
+  
+  button[type="submit"]:hover {
+    background: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+h1 {
+    font-family: "Nabla" ;
+}
+
+h1:hover{
+    letter-spacing: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

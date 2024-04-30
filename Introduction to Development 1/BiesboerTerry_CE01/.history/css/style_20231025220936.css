@@ -1,0 +1,13 @@
+/* Background color changed and verified */
+body {
+    background-color: lightcyan;
+    justify-content:  center;
+}
+//* h1 color changed and verified */
+h1 {
+    color: rgb(77, 83, 86);
+}
+/* h3 color changed and verified */
+h3 {
+    color: rgb(169, 68, 147)
+}

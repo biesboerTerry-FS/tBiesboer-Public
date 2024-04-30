@@ -1,0 +1,19 @@
+/* Background color changed and verified */
+body {
+    margin: 0  auto;
+    padding: 2rem ;
+    background-color: rgb(42, 52, 52);
+    text-align: ;
+}
+/* h1 color changed and verified */
+h1 {
+    color: rgb(207, 147, 42);
+}
+/* h3 color changed and verified */
+h3 {
+    color: rgb(169, 68, 147);
+}
+
+p {
+    color: rgb(238, 233, 227);
+}

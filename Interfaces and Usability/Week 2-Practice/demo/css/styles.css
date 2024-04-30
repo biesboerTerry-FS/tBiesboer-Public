@@ -1,0 +1,55 @@
+/* 
+--magnolia: #f8f1ffff;
+--thistle: #decdf5ff;
+--cambridge-blue: #81968fff;
+--space-cadet: #2d3047ff;
+--bittersweet: #e86252ff;
+*/
+body {
+    background-color:#f8f1ffff;
+    color:#e86252ff;
+    line-height: 26px;
+    margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #2d3047ff;    font: weight 900px;
+}
+
+footer {
+    background-color:#81968fff;
+    font-weight: 100;
+    text-align: center;
+    color: #f8f1ffff;
+}
+
+.dask{
+    width: 450px;
+    border:  3px solid #e86252ff;
+}
+
+/* Selector combinations */
+
+/* Descendant - 2 selectors separated by a space */
+main p {
+    font-size: 20px;
+
+}
+
+/* Child - 2 selectors with > between tem */
+footer > p {
+    padding: 25px 0px;
+}
+
+/* Adjacent Sibling - 2 selectors with + between them */
+.dask + p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/*  General Sibling - 2 selectors ith ~ between them */
+h2 ~ h5 {
+    letter-spacing: 2px;
+}

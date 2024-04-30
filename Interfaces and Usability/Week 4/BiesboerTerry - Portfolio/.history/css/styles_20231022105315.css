@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif, "Josefin Sans" "Montserrat"; 
+}
+
+header img{
+    width:269px;height:269px;
+    border-radius: 50%;
+  }
+header>h1:hover{
+    background:purple;
+    letter-spacing:5px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }

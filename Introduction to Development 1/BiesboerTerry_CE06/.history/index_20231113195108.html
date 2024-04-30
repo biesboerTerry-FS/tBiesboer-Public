@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Fill'Er Up</h1>
+    <h3>Let's help with some conversions</h3>
+            <form id="problem1" name="problem1">
+                <label for="numGals">How many gallons of milk do you need?</label>
+                <br>
+                
+                <input type="number" id="numGals">
+                <br><br>
+                <fieldset><legend>Choose one of the following measurement types.</legend>
+                <input type="radio" id="quarts">Quarts</input>
+                <input type="radio" id="pints">Pints</input>
+                <input type="radio" id="cups">Cups</input>
+                </fieldset>
+                <br>
+                <button type="button" id="startCalc">Click here to convert</button>   
+                <br><br><br>
+                <input type="number" id="numQuarts">
+            </form>
+    <script src="js/script.js"></script>
+</body>
+</html>

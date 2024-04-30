@@ -1,0 +1,272 @@
+/* 
+ADJUSTING CSS FROM LINES 1 to 130 IS NOT NECESSARY
+
+ /* Terry Biesboer */
+ /* Due Date - October 16, 2023 */
+/* Make It Responsive */
+
+ html {
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #3d2514;
+  background-image: url(../img/burger-bg.png);
+  background-repeat: repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffc045;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.section-title {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #3d2514;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 4px 5px #fee7ba;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.hero-subtitle {
+  font-weight: 500;
+}
+
+.menu-item {
+  background-color: rgba(255, 192, 69, 0.8);
+}
+
+.button {
+  background-color: #bf2222;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 16px 40px;
+  line-height: normal;
+  display: inline-block;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #ffc045;
+}
+
+.price {
+  background-color: #bf2222;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 16px 40px;
+  line-height: normal;
+  display: inline-block;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 30px 0;
+  background-color: #3d2514;
+  color: #ffffff;
+}
+
+/* 
+TODO: ELEMENTS THAT NEED FONT SIZING OR LAYOUT APPLIED
+- Utilize em or rem to control relative font sizing for any typography
+- Use Flexbox or CSS Grid to control layout for the following sections: Hero, Menu, Features and Footer
+*/
+
+.logo {
+  font-size: 2rem ;
+ justify-content:l;;
+}
+
+.container {
+
+  max-width: 1200px ;
+  padding-top: 150px ;
+  margin: 0 auto ;
+  font-size: 2rem ;
+  
+}
+
+
+/* Hero */
+
+.hero-wrapper {
+  display: flex ;
+  flex-wrap: wrap ;
+  margin: 0 25px 0 25px ;
+}
+
+.hero-item  {
+  width: 250px ;
+  margin: 0 75px 0 75px ;
+  justify-content: center;
+  max-width: 250px ;
+
+  
+}
+
+.hero-title {
+  display: flex ;
+  flex-wrap: wrap;
+  font-size: 3.125rem ;
+  text-align: center;
+}
+
+.hero-subtitle {
+  display: flex ;
+  flex-wrap: wrap ;
+  font-size:  1.25rem ;
+  text-align: center;
+}
+
+
+/* Menu */
+.section-subtitle {
+  font-size: 1.5rem ;
+
+}
+
+.menu-wrapper {
+  display: grid ;
+  grid-template-columns: 2 ;
+  margin: 0 auto ;
+}
+
+.menu-item {
+    padding:  50px 10px 50px 10px ;
+}
+
+.menu-burger {
+  font-size: 1.75rem ;
+
+}
+
+.menu-description {
+  font-size: 1rem ;
+}
+
+.price {
+  margin: 45px 0 55px 0 
+}
+
+
+
+/* Features */
+
+.features-wrapper {
+ h2 {
+  font-size:1.5rem  ;
+  display: flex ;
+  flex: column ;
+	gap: 2rem ;
+ }
+}
+
+.features-item {
+  font-size: 1.5rem ;
+}
+
+
+
+
+/* Footer Styles */
+
+
+.footer-wrapper {
+  text-align: center ;
+}
+
+.footer-item {
+  h2 {
+    font-size: 1.5rem ;
+    width: 100% ;   
+    text-align: center ;
+}
+  h4, p {
+  font-size: 1rem ;
+  text-align: center;
+ }
+  img {
+    padding-bott: 25px ;
+  }
+}
+
+/* 
+TODO: ADD MEDIA QUERIES BELOW 
+- Should have at least 4 media queries that adjust at least one element each.
+*/
+
+@media (min-width: 920px ) {
+  
+}
+
+@media (width < 1200) {
+
+}
+@media (max-width: 600px ) {
+
+} 
+
+@media (max-width: 1200px   ) {
+
+}

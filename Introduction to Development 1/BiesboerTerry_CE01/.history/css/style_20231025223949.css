@@ -1,0 +1,14 @@
+/* Background color changed and verified */
+body {
+    background-color: lightcyan;
+}
+//* h1 color changed and verified */
+h1 {
+   
+    font-family: Tahoma;
+}
+/* h3 color changed and verified */
+h3 {
+    color: rgb(169, 68, 147)
+    font-family: Verda;
+}

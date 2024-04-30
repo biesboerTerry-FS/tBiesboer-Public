@@ -1,0 +1,55 @@
+/** Base and media query */
+
+header, section, footer, h2 {
+	padding: 20px 10px;
+}
+
+h1 {
+	font-size: 3.5rem;
+	text-align: right;
+	margin: 20px 20px 20px 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+body {
+		font-family: open, sans-serif, Arial, Helvetica;
+		color: rgb(255, 255, 255); 
+		font-size: 16px; 
+		line-height: 1.5; 
+		padding: 6px; 
+		border-radius: 10px; 
+		background-image: linear-gradient(45deg, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 80%, rgb	(20, 78, 117) 100%); 
+		box-shadow: rgb(211, 218, 224) 5px 5px 15px 5px; 
+		border: 2px solid rgb(28, 110, 164); 
+		display: inline-block;}
+		background: #1C6EA4; }
+		.myButton:active {
+		background: #144E75; }
+		color:cornflowerblue;
+		line-height: 1.5;
+}
+
+.container {
+		max-width: 1200px;
+}
+
+/* for media queries that targets a width of 500px or less (mi-width or max-width)*/
+
+@media (max-width: 500px ) {
+        body {
+                background-color: #5e636e;	
+}   
+}
+
+/* for media queries that targets a width of 500px or less */
+@media (min-width: 800px) {
+	body {
+	background-color: aliceblue;
+}
+}
+
+footer {
+	-webkit-box-shadow: 5px 5px 15px 5px #D3DAE0; 
+	box-shadow: 5px 5px 15px 5px #D3DAE0;
+	text-align: right;
+}

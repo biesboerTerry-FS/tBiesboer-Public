@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Fill'Er Up</h1>
+    <h3>Let's help with some conversions</h3>
+            <form id="problem1" name="problem1">
+                <label for="numGals" required placeholder="Number of Gallons">How many gallons of milk do you need?</label>
+                <br>
+                
+                <input type="number" id="numGals" min="0" validate required>
+                <br><br>
+                <fieldset><legend>Choose one of the following measurement types.</legend>
+                        <input type="radio" name="measChoice" id="quartsChoice" value="Quarts" checked>Quarts</input>
+                        <input type="radio" name="measChoice" id="pintsChoice" value="Pints">Pints</input>
+                        <input type="radio" name="measChoice" id="cupsChoice" value="Cups">Cups</input>
+                </fieldset>
+                <br>
+                <button type="submit" id="startCalc">Click here to convert</button>   
+                <br><br><br>
+                <input type="number" id="numQuarts" validate><label for="numQuarts">Quarts</label>
+                <br>
+                <input type="number" name="numPints" id="numPints" validate><label for="numPints">Pints</label>
+                <br>
+                <input type="number" name="numCups" id="numCups" validate><label for="numCups">Cups</label>
+                <br>
+            </form>
+    <script src="js/script.js"></script>
+</body>
+</html>

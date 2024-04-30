@@ -1,0 +1,360 @@
+/* 
+ADJUSTING CSS FROM LINES 1 to 130 IS NOT NECESSARY
+
+ /* Terry Biesboer */
+ /* Due Date - October 16, 2023 */
+/* Make It Responsive */
+
+ html {
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #3d2514;
+  background-image: url(../img/burger-bg.png);
+  background-repeat: repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffc045;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.section-title {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #3d2514;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 4px 5px #fee7ba;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.hero-subtitle {
+  font-weight: 500;
+}
+
+.menu-item {
+  background-color: rgba(255, 192, 69, 0.8);
+}
+
+.button {
+  background-color: #bf2222;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 16px 40px;
+  line-height: normal;
+  display: inline-block;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #ffc045;
+}
+
+.price {
+  background-color: #bf2222;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 16px 40px;
+  line-height: normal;
+  display: inline-block;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 30px 0;
+  background-color: #3d2514;
+  color: #ffffff;
+}
+
+/* 
+TODO: ELEMENTS THAT NEED FONT SIZING OR LAYOUT APPLIED
+- Utilize em or rem to control relative font sizing for any typography
+- Use Flexbox or CSS Grid to control layout for the following sections: Hero, Menu, Features and Footer
+*/
+
+.container-footer{
+  display: flex ;
+  flex-direction: column ;
+  text-align: center ;
+  font-size: 1.5rem ;
+  /* width: 100% ; */
+
+}
+.logo {
+  font-size: 2rem ;
+  justify-content: center ;
+}
+
+.container {
+  max-width: 1200px ;
+  padding-top: 150px ;
+  margin: 0 25px 25px 25px ;
+  font-size: 1rem ;
+  /* width: 100% ; */
+}
+
+/* Hero */
+
+.hero-wrapper {
+  display: flex ;
+  flex-wrap: wrap ;
+  justify-content: center ;
+
+  
+}
+
+.hero-item  {
+  justify-content: center ;  
+}
+
+.hero-image {
+  /* display: block; */
+  /* block-size: 400p; */
+  display: flex ;
+  flex-direction: column ;
+  flex: column ;
+  /* column-width: 75% ; */
+  justify-content: center;
+  /* margin: 0 145px 0 145px ; */
+  padding-left: 50px ;
+  padding-right: 50px ;
+  max-width: 400px ; 
+}
+
+.hero-title {
+  /* display: flex ; */
+  /* flex-wrap: wrap; */
+  font-size: 2.5rem ;
+  text-align: center;
+  
+}
+
+.hero-subtitle {
+  /* display: flex ; */
+  /* flex-wrap: wrap ; */
+  font-size:  1.25rem ;
+  /* text-align: center; */
+}
+
+
+/* Menu */
+
+.section-title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-size: 2rem ;
+}
+
+.section-subtitle {
+  font-size: 1.5rem ;
+
+}
+
+.menu-wrapper {
+  .container-footer{
+    display: flex ;
+    flex-direction: column ;
+    text-align: center ;
+    font-size: 1.5rem ;
+    .container-footer{
+      display: flex ;
+      flex-direction: column ;
+      text-align: center ;
+      font-size: 1.5rem ;
+      /* width: 100% ; */
+    
+    } /* width: 100% ; */
+  
+  }/* display: grid
+  .container-footer{
+  display: flex ;
+  flex-direction: column ;
+  text-align: center ;
+  font-size: 1.5rem ;
+  /* width: 100% ; */
+
+}.container-footer{
+  display: flex ;
+  flex-direction: column ;
+  text-align: center ;
+  font-size: 1.5rem ;
+  /* width: 100% ; */
+
+} ; */.container-footer{
+  display: flex ;
+  flex-direction: column ;
+  text-align: center ;
+  font-size: 1.5rem ;
+  /* width: 100% ; */
+
+}
+  /* grid-template-columns: 1fr ; */
+  /* margin: 0 auto ; */
+
+
+.menu-item {
+    padding-top: 25px ;
+    padding-bottom: 25px ;
+}
+
+.menu-burger {
+  font-size: 1.75rem ;
+
+}
+
+.menu-description {
+  font-size: 1rem ;
+  padding-bottom: 25px ;
+}
+
+.price {
+  margin: 35px 0 35px 0 
+}
+
+
+
+/* Features */
+
+.features-wrapper {
+  h3  {
+  font-size:1.5rem  ;
+  /* display: flex ; */
+  /* flex: column ; */
+	/* gap: 2rem ; */
+ }
+}
+
+.features-item {
+  padding-bottom: 20px ;
+  padding-top: 20px ;
+}
+
+
+
+
+/* Footer Styles */
+
+.container-two {
+  /* display: flex ; */
+  /* flex-direction: column ; */
+  /* text-align: center ; */
+  font-size: 1.5rem ;
+    /* width: 100% ; */
+
+}
+
+
+.footer-wrapper {
+  font-size: 1.5rem ;
+  /* margin: 0 125px 0 125px ; */
+  padding: 25px 25px 25px 25px ;
+  /* display: flex ; */
+  /* flex: column ; */
+  /* justify-content: center ; */
+
+}
+
+.footer-item{
+  /* justify-content: center ; */
+  font-size: 1.5rem ;
+}
+
+.footer-end {
+  font-size: 1rem ;
+  /* text-align: center; */
+}
+
+
+/* 
+TODO: ADD MEDIA QUERIES BELOW 
+- Should have at least 4 media queries that adjust at least one element each.
+*/
+
+@media (min-width: 700px ) {
+  .menu-wrapper {
+    display: flex ;
+    flex
+    /* grid-template-rows: 2 ; */
+    /* grid-template-columns: 2 ; */
+    /* grid-auto-columns:; */
+  }
+}
+
+@media (width < 1200) {
+  /* .header { */
+  /* align-content: center; */
+  }
+
+
+@media (max-width: 600px ) {
+/* 
+ */
+} 
+
+@media (max-width: 1200px ) {
+/* 
+ */
+}
+
+}

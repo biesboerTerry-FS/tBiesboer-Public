@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif, "Josefin Sans" "Montserrat"; 
+}
+
+header img{
+    width:269px;height:269px;
+    border-radius: 50%;
+}
+
+
+h1{
+  text-align:right;
+  color:#fff;
+  font-family:Helvetica, arial, sans-serif; 
+  font-size:3rem;
+  margin:0px auto;
+  letter-spacing:-1px;
+  font-weight:bold;
+  text-shadow:8px 8px 8px rgba(0,0,0,0.75);
+}
+
+heade r> h1:hover{
+    background:purple;
+    letter-spacing:5px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }

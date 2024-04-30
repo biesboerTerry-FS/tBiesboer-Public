@@ -1,0 +1,11 @@
+//alert("File is connected");
+
+/* Terry Biesboer
+November 13, 2023
+CE06 HTML Forms */
+
+
+
+let numGals = parseInt(document.querySelector("#numGals").addEventListener("click"), function(e));
+
+document.querySelector("#inQuarts").checked;

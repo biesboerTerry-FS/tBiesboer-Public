@@ -1,0 +1,20 @@
+ body{
+    margin: 0 auto ;
+    font-family: 'Montserrat', Nabla", "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+    font-family: "Nabla" ;
+}
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;1,500&family=Montserrat:wght@200;300;600&family=Nabla&display=swap);
+
+@font-face {
+    font-family: 'Montserrat'; 
+    font-family:"Josefin Sans"; 
+    font-family:"Nabla";
+}

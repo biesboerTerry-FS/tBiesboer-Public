@@ -1,0 +1,27 @@
+/* !  BASE CSS  */
+/*  These styles apply unless another style overwrites it*/
+
+/* !  MEDIA QUERIES */
+/* *
+*Overwrites previous styles ONLY when they are triggered
+*Only include selectors & properties that need to change
+*/
+
+/* ? Media query that targets a  width of 500px and below */
+
+@media screen (max-width: 500px) {
+    background
+}
+/* ? Media query that targets a width of 800px and higher */
+
+@media screen (max-width: 500px) {
+    
+}
+/* ? Media query that targets the width of 1200px and higher*/
+
+@media screen (max-width: 500px) {
+    
+}
+/* Normal media query */
+
+/* NEW RANGE SYNTAX = THIS WEEK'S EASTER EGG */

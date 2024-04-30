@@ -1,0 +1,52 @@
+/** */
+
+body {
+	font-family: 'Open Sans';
+	text-decoration: cornflowerblue;
+	font-size: 1.75rem;
+	line-height: 1.5;
+}
+
+header, 
+section, 
+footer,
+h2 {
+	padding: 20px 20px;
+}
+
+.container {
+		max-width: 1200px;
+		margin: 0 auto;
+}
+
+ /**  Typography */
+
+ h1 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 3.5rem;
+}
+
+h2 {
+
+}
+
+/* for media queries that targets a width of 500px or less (mi-width or max-width)*/
+
+@media (max-width: 500px ) {
+        body {
+
+}   
+}
+
+/* for media queries that targets a width of 500px or less */
+@media (min-width: 800px) {
+	body {
+	}
+}
+
+footer {
+	-webkit-box-shadow: 5px 5px 15px 5px #D3DAE0; 
+	box-shadow: 5px 5px 15px 5px #D3DAE0;
+	text-align: right;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Fill'Er Up</h1>
+    <h3>Let's help with some conversions</h3>
+            <form id="problem1" name="problem1">
+                <label for="numGals" placeholder="Number of Gallons">How many gallons of milk do you need?</label>
+                <br>
+                <input type="number" id="numGals" name="numGals" min="0" step=".01" required>
+                <br>
+                <br>
+                    <fieldset><legend>Choose your unit of measurement.</legend>
+                    <label for="inQuarts">Quarts</label>
+                    <input type="radio" id="inQuarts" value="quarts" name="measureChoice" checked>
+                    <label for="inPints">Pints</label>
+                    <input type="radio" id="inPints" value="pints" name ="measureChoice">
+                    <label for="inCups">Cups</label>
+                    <input type="radio" id="inCups" value="cups" name="measureChoice">
+                </fieldset>
+                <br>
+                <label for="button"></label>
+                <input type="button" id="startCalc" value="submit" name="Submit">
+                <br>
+                <br>
+                <label for="quartsAmount">Quarts</label>
+                <br>
+                <input type="text" name="quartsAmount" id="quartsAmount">
+                <br>
+                <label for="pintsAmount">Pints</label>
+                <br>
+                <input type="text" name="pintsAmount" id="pintsAmount">
+                <br>
+                <label for="cupsAmount">Cups</label>
+                <br>
+                <input type="text" name="cupsAmount" id="cupsAmount">
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <form action="problem2">
+                <h1>Lets see where you rank in the Movie Club</h1>
+                <h2>Please enter in the following information</h2>
+                <label for="dvd">DVD</label>
+                <input type="number" name="numDvd" id="numDvd" required min="0" step="1">
+                <label for="bluray">Blu-Ray</label>
+                <input type="number" name="numBlu" id="numBlu" required min="0" step="1">
+                <label for="ultraviolet">Ultraviolet</label>
+                <input type="number" name="numUltra" id="numUltra" required min="0" step="1">
+                <br><br>
+                <input type="button" value=" Total the Movies" name="movieTotal" id="movie">
+                <br><br><br>
+                <h1 id="totalMovies"></h1>
+                <img id="imageResult" width="360">
+
+
+            </form>
+    <script src="js/script.js"></script>
+</body>
+</html>

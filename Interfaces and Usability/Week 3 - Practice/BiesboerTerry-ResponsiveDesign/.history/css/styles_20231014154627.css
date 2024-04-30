@@ -1,0 +1,39 @@
+/** Base and media query */
+h1 {
+	font-size: 3.5rem;
+	text-align: right;
+	margin: 20px 20px 20px 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+body {
+		font-family: open, sans-serif, Arial, Helvetica;
+        background-color: #111213;
+		color:cornflowerblue
+		font-size: 
+}
+
+.container {
+        max-width: 600px ;
+}
+
+/* for media queries that targets a width of 500px or less (mi-width or max-width)*/
+
+@media (max-width: 500px ) {
+        body {
+                background-color: #5e636e;	
+}   
+}
+
+/* for media queries that targets a width of 500px or less */
+@media (min-width: 800px) {
+	body {
+	background-color: aliceblue;
+}
+}
+
+footer {
+	-webkit-box-shadow: 5px 5px 15px 5px #D3DAE0; 
+	box-shadow: 5px 5px 15px 5px #D3DAE0;
+	text-align: center;
+}
