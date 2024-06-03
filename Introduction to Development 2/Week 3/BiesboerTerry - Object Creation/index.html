@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Biesboer Terry - Object Creation</title>
+	</head>
+	<body>
+		<h1>TILT ARCADE - HIGH SCORES</h1>
+		<form id="form">
+			<div>
+				<label for="videoGame">Video Game: </label>
+				<input id="videoGame" type="text" placeholder="Video game" required />
+			</div>
+			<div>
+				<label for="playerName">Player Name: </label>
+				<input id="playerName" type="text" placeholder="Player name" required />
+			</div>
+			<div>
+				<label for="highScore">High Score: </label>
+				<input
+					id="highScore"
+					type="number"
+					min="0"
+					max="999999999"
+					placeholder="High Score"
+					required
+				/>
+			</div>
+			<br />
+			<div>
+				<button id="addButton" type="submit">Add High Score</button>
+			</div>
+		</form>
+		<h2>Leaderboard</h2>
+		<p id="output"></p>
+		<script src="js/main.js"></script>
+	</body>
+</html>
