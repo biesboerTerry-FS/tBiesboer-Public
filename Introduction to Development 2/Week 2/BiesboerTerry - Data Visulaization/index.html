@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Data Visualization</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<h1>Average Temperatures over 10 day period</h1>
+		<p>
+			Enter a number from 1 through 100. This will randomly display 10 numbers
+			in that range.
+		</p>
+		<form>
+			<div>
+				<span>
+					<label>Lowest number</label>
+					<input
+						id="lowestNumber"
+						type="number"
+						placeholder="Number"
+						min="1"
+						max="100"
+						required
+					/>
+					<label>Highest Number</label>
+					<input
+						id="highestNumber"
+						type="number"
+						placeholder="Number"
+						min="2"
+						max="100"
+						required
+					/>
+					<button type="submit">Show Graph</button>
+				</span>
+				<p id="averageNumber"></p>
+			</div>
+		</form>
+		<canvas width="750" height="300"> </canvas>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+<!-- max="100" -->
